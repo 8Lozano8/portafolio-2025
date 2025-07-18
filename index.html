@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Jean Lozano</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    </head>
+    <body class="bg-[#0a0a08] text-white">
+        <section
+            class="bg-[url('/assets/banner.jpg')] grayscale hover:grayscale-0 bg-cover bg-center duration-1000"
+        >
+            <div
+                class="bg-gradient-to-r from-[#0a0a08] via-[#0a0a08] to-[#0a0a08]/1 py-10"
+            >
+                <header
+                    class="flex justify-between relative px-5 md:px-10 lg:px-20 xl:px-40 2xl:px-100"
+                >
+                    <span
+                        class="text-2xl hover:text-orange-400 transition-colors cursor-pointer"
+                    >
+                        <a href="#">Jean Lozano</a>
+                    </span>
+
+                    <button
+                        id="menu-button"
+                        class="p-2 bg-transparent hover:bg-gray-700 focus:outline-none lg:hidden"
+                    >
+                        <svg
+                            class="w-6 h-6"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"
+                            ></path>
+                        </svg>
+                    </button>
+
+                    <section class="hidden lg:flex justify-between gap-x-10">
+                        <a
+                            href="#proyectos"
+                            class="hover:text-orange-400 transition-colors"
+                            >Mis Proyectos</a
+                        >
+                        <a
+                            href="https://wa.me/51970359604?text=Hola%2C%20desear%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20su%20servicio"
+                            target="_blank"
+                            class="hover:text-orange-400 transition-colors"
+                            >Contáctame</a
+                        >
+                    </section>
+                </header>
+
+                <div
+                    class="absolute w-full px-5 md:px-10 lg:px-20 xl:px-40 2xl:px-100"
+                >
+                    <div id="menu" class="hidden bg-gray-700 shadow-md">
+                        <a
+                            href="#proyectos"
+                            class="block px-4 py-2 hover:bg-gray-500"
+                            >Mis Proyectos</a
+                        >
+                        <a href="https://wa.me/51970359604?text=Hola%2C%20desear%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20su%20servicio" target="_blank" class="block px-4 py-2 hover:bg-gray-500"
+                            >Contáctame</a
+                        >
+                    </div>
+                </div>
+
+                <main class="px-5 md:px-10 lg:px-20 xl:px-40 2xl:px-100">
+                    <h1
+                        class="pt-20 pb-4 text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl font-bold"
+                    >
+                        HOLA, SOY JEAN LOZANO,
+                        <span class="text-orange-400">DISEÑADOR</span> Y
+                        <span class="text-orange-400">DESARROLLADOR WEB</span>
+                    </h1>
+                    <p class="w-full md:w-3/4 lg:w-1/2 2xl:w-1/3 py-5">
+                        Diseño y desarrollo sitios web atractivos, funcionales y
+                        centrados en la experiencia del usuario. Trabajo con
+                        negocios y emprendedores que buscan destacar online con
+                        una web moderna, veloz y bien estructurada. Si buscas un
+                        sitio visualmente impactante y que funcione como debe,
+                        escríbeme. Si conectamos, te enviaré una propuesta con
+                        tiempos y costos claros.
+                    </p>
+
+                    <div class="my-8">
+                        <a
+                            href="#proyectos"
+                            class="cursor-pointer border w-fit px-6 py-3 rounded-sm hover:border-orange-400 hover:text-orange-400 transition-colors"
+                            >Visita Mi Portafolio</a
+                        >
+                    </div>
+                </main>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <!-- Proyecto 01 movil y tablet -->
+            <div class="my-20 px-5 md:px-10 lg:hidden xl:hidden 2xl:hidden">
+                <p class="text-center text-gray-500 font-bold">
+                    PROYECTOS RECIENTES
+                </p>
+                <p class="py-3 text-center text-3xl font-bold">CEPEN</p>
+                <div class="flex flex-wrap justify-center items-center gap-3">
+                    <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
+                        Diseño Web
+                    </div>
+                    <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
+                        Diseño UX/UI
+                    </div>
+                    <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
+                        Desarrollo Web
+                    </div>
+                    <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
+                        WordPress
+                    </div>
+                </div>
+                <div class="flex justify-center items-center py-5">
+                    <a
+                        href="https://www.behance.net/gallery/221210595/Jean-Lozano-CEPEN"
+                        target="_blank"
+                    >
+                        <img
+                            src="./assets/proyecto01.png"
+                            class="sombra-png"
+                            alt="Proyecto CEPEN"
+                        />
+                    </a>
+                </div>
+                <p class="py-5 text-center">
+                    Diseño y desarrollo completo del sitio web para CEPEN, un
+                    instituto enfocado en banca y negocios. Me encargué del
+                    diseño UX/UI centrado en la claridad y profesionalismo de la
+                    marca, así como del desarrollo web para asegurar una
+                    navegación fluida y adaptable. El sitio fue estructurado
+                    para destacar los programas educativos del instituto y
+                    facilitar la conversión de nuevos estudiantes.
+                </p>
+                <div class="flex justify-center items-center">
+                    <a
+                        href="https://www.behance.net/gallery/221210595/Jean-Lozano-CEPEN"
+                        target="_blank"
+                        class="cursor-pointer border w-fit px-6 py-3 rounded-sm hover:border-orange-400 hover:text-orange-400 transition-colors"
+                        >Visita Este Proyecto</a
+                    >
+                </div>
+                <hr class="my-10" />
+            </div>
+
+            <!-- Proyecto 01 Escritorio -->
+            <div
+                class="my-40 hidden lg:block md:px-10 lg:px-20 xl:px-40 2xl:px-100"
+            >
+                <div class="lg:grid lg:grid-cols-2 lg:gap-4">
+                    <div class="flex justify-center items-center py-5">
+                        <a
+                            href="https://www.behance.net/gallery/221210595/Jean-Lozano-CEPEN"
+                            target="_blank"
+                        >
+                            <img
+                                src="./assets/proyecto01.png"
+                                class="sombra-png"
+                                alt="Proyecto CEPEN"
+                            />
+                        </a>
+                    </div>
+
+                    <div>
+                        <p class="text-gray-500 font-bold">
+                            PROYECTOS RECIENTES
+                        </p>
+                        <p class="py-3 text-3xl font-bold">CEPEN</p>
+                        <div class="flex flex-wrap gap-3">
+                            <div
+                                class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm"
+                            >
+                                Diseño Web
+                            </div>
+                            <div
+                                class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm"
+                            >
+                                Diseño UX/UI
+                            </div>
+                            <div
+                                class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm"
+                            >
+                                Desarrollo Web
+                            </div>
+                            <div
+                                class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm"
+                            >
+                                WordPress
+                            </div>
+                            <p class="py-5">
+                                Diseño y desarrollo completo del sitio web para
+                                CEPEN, un instituto enfocado en banca y
+                                negocios. Me encargué del diseño UX/UI centrado
+                                en la claridad y profesionalismo de la marca,
+                                así como del desarrollo web para asegurar una
+                                navegación fluida y adaptable. El sitio fue
+                                estructurado para destacar los programas
+                                educativos del instituto y facilitar la
+                                conversión de nuevos estudiantes.
+                            </p>
+                            <div class="flex justify-center items-center">
+                                <a
+                                    href="https://www.behance.net/gallery/221210595/Jean-Lozano-CEPEN"
+                                    target="_blank"
+                                    class="cursor-pointer border w-fit px-6 py-3 rounded-sm hover:border-orange-400 hover:text-orange-400 transition-colors"
+                                    >Visita Este Proyecto</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyecto 02 movil y tablet -->
+            <div class="my-20 px-5 md:px-10 lg:hidden xl:hidden 2xl:hidden">
+                <p class="py-3 text-center text-3xl font-bold">CALM</p>
+                <div class="flex flex-wrap justify-center items-center gap-3">
+                    <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
+                        Diseño Web
+                    </div>
+                    <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
+                        Diseño UX/UI
+                    </div>
+                    <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
+                        Desarrollo Web
+                    </div>
+                    <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
+                        Figma
+                    </div>
+                </div>
+                <div class="flex justify-center items-center py-5">
+                    <a
+                        href="https://www.behance.net/gallery/217792105/Jean-Lozano-Landing-page-Calm"
+                        target="_blank"
+                    >
+                        <img
+                            src="./assets/proyecto02.png"
+                            class="sombra-png"
+                            alt="Proyecto CALM"
+                        />
+                    </a>
+                </div>
+                <p class="py-5 text-center">
+                    Diseño y desarrollo completo de una landing page para CALM,
+                    una app enfocada en reducir los niveles de estrés. Me
+                    encargué del diseño UX/UI con una estética minimalista y
+                    relajante, así como del desarrollo web para garantizar una
+                    experiencia fluida y responsiva. El enfoque estuvo en
+                    comunicar los beneficios de la app de forma clara e
+                    inspiradora.
+                </p>
+                <div class="flex justify-center items-center">
+                    <a
+                        href="https://www.behance.net/gallery/217792105/Jean-Lozano-Landing-page-Calm"
+                        target="_blank"
+                        class="cursor-pointer border w-fit px-6 py-3 rounded-sm hover:border-orange-400 hover:text-orange-400 transition-colors"
+                        >Visita Este Proyecto</a
+                    >
+                </div>
+                <hr class="my-10" />
+            </div>
+
+            <!-- Proyecto 02 Escritorio -->
+            <div
+                class="my-40 hidden lg:block md:px-10 lg:px-20 xl:px-40 2xl:px-100"
+            >
+                <div class="lg:grid lg:grid-cols-2 lg:gap-4">
+                    <div>
+                        <p class="py-3 text-3xl font-bold">CALM</p>
+                        <div class="flex flex-wrap gap-3">
+                            <div
+                                class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm"
+                            >
+                                Diseño Web
+                            </div>
+                            <div
+                                class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm"
+                            >
+                                Diseño UX/UI
+                            </div>
+                            <div
+                                class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm"
+                            >
+                                Desarrollo Web
+                            </div>
+                            <div
+                                class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm"
+                            >
+                                Figma
+                            </div>
+                            <p class="py-5">
+                                Diseño y desarrollo completo de una landing page
+                                para CALM, una app enfocada en reducir los
+                                niveles de estrés. Me encargué del diseño UX/UI
+                                con una estética minimalista y relajante, así
+                                como del desarrollo web para garantizar una
+                                experiencia fluida y responsiva. El enfoque
+                                estuvo en comunicar los beneficios de la app de
+                                forma clara e inspiradora.
+                            </p>
+                            <div class="flex justify-center items-center">
+                                <a
+                                    href="https://www.behance.net/gallery/217792105/Jean-Lozano-Landing-page-Calm"
+                                    target="_blank"
+                                    class="cursor-pointer border w-fit px-6 py-3 rounded-sm hover:border-orange-400 hover:text-orange-400 transition-colors"
+                                    >Visita Este Proyecto</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center py-5">
+                        <a
+                            href="https://www.behance.net/gallery/217792105/Jean-Lozano-Landing-page-Calm"
+                            target="_blank"
+                        >
+                            <img
+                                src="./assets/proyecto02.png"
+                                class="sombra-png"
+                                alt="Proyecto CALM"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyecto 03 movil y tablet -->
+            <div class="my-20 px-5 md:px-10 lg:hidden xl:hidden 2xl:hidden">
+                <p class="py-3 text-center text-3xl font-bold">TECHNOVA</p>
+                <div class="flex flex-wrap justify-center items-center gap-3">
+                    <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
+                        Diseño Web
+                    </div>
+                    <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
+                        Diseño UX/UI
+                    </div>
+                    <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
+                        Desarrollo Web
+                    </div>
+                    <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
+                        WordPress
+                    </div>
+                </div>
+                <div class="flex justify-center items-center py-5">
+                    <a
+                        href="https://www.behance.net/gallery/217111885/Jean-Lozano-Ecommerce-TechNova"
+                        target="_blank"
+                    >
+                        <img
+                            src="./assets/proyecto03.png"
+                            class="sombra-png"
+                            alt="Proyecto TECHNOVA"
+                        />
+                    </a>
+                </div>
+                <p class="py-5 text-center">
+                    Diseño y desarrollo completo de TechNova, un ecommerce
+                    moderno enfocado en la venta de productos tecnológicos. Me
+                    encargué del diseño UX/UI con una estética limpia y
+                    funcional, optimizando la experiencia de compra. El
+                    desarrollo del sitio se centró en la velocidad, la
+                    usabilidad y una arquitectura escalable para facilitar la
+                    gestión de productos y pedidos.
+                </p>
+                <div class="flex justify-center items-center">
+                    <a
+                        href="https://www.behance.net/gallery/217111885/Jean-Lozano-Ecommerce-TechNova"
+                        target="_blank"
+                        class="cursor-pointer border w-fit px-6 py-3 rounded-sm hover:border-orange-400 hover:text-orange-400 transition-colors"
+                        >Visita Este Proyecto</a
+                    >
+                </div>
+                <hr class="my-10" />
+            </div>
+
+            <!-- Proyecto 03 Escritorio -->
+            <div
+                class="my-40 hidden lg:block md:px-10 lg:px-20 xl:px-40 2xl:px-100"
+            >
+                <div class="lg:grid lg:grid-cols-2 lg:gap-4">
+                    <div class="flex justify-center items-center py-5">
+                        <a
+                            href="https://www.behance.net/gallery/217111885/Jean-Lozano-Ecommerce-TechNova"
+                            target="_blank"
+                        >
+                            <img
+                                src="./assets/proyecto03.png"
+                                class="sombra-png"
+                                alt="Proyecto TECHNOVA"
+                            />
+                        </a>
+                    </div>
+
+                    <div>
+                        <p class="py-3 text-3xl font-bold">TECHNOVA</p>
+                        <div class="flex flex-wrap gap-3">
+                            <div
+                                class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm"
+                            >
+                                Diseño Web
+                            </div>
+                            <div
+                                class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm"
+                            >
+                                Diseño UX/UI
+                            </div>
+                            <div
+                                class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm"
+                            >
+                                Desarrollo Web
+                            </div>
+                            <div
+                                class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm"
+                            >
+                                WordPress
+                            </div>
+                            <p class="py-5">
+                                Diseño y desarrollo completo de TechNova, un
+                                ecommerce moderno enfocado en la venta de
+                                productos tecnológicos. Me encargué del diseño
+                                UX/UI con una estética limpia y funcional,
+                                optimizando la experiencia de compra. El
+                                desarrollo del sitio se centró en la velocidad,
+                                la usabilidad y una arquitectura escalable para
+                                facilitar la gestión de productos y pedidos.
+                            </p>
+                            <div class="flex justify-center items-center">
+                                <a
+                                    href="https://www.behance.net/gallery/217111885/Jean-Lozano-Ecommerce-TechNova"
+                                    target="_blank"
+                                    class="cursor-pointer border w-fit px-6 py-3 rounded-sm hover:border-orange-400 hover:text-orange-400 transition-colors"
+                                    >Visita Este Proyecto</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyecto 04 movil y tablet -->
+            <div class="my-20 px-5 md:px-10 lg:hidden xl:hidden 2xl:hidden">
+                <p class="py-3 text-center text-3xl font-bold">TECNOHORIZON</p>
+                <div class="flex flex-wrap justify-center items-center gap-3">
+                    <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
+                        Diseño Web
+                    </div>
+                    <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
+                        Diseño UX/UI
+                    </div>
+                    <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
+                        Desarrollo Web
+                    </div>
+                    <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
+                        Figma
+                    </div>
+                </div>
+                <div class="flex justify-center items-center py-5">
+                    <a
+                        href="https://www.behance.net/gallery/216770357/Jean-Lozano-Blog-TecnoHorizon"
+                        target="_blank"
+                    >
+                        <img
+                            src="./assets/proyecto04.png"
+                            class="sombra-png"
+                            alt="Proyecto TECNOHORIZON"
+                        />
+                    </a>
+                </div>
+                <p class="py-5 text-center">
+                    Diseño y desarrollo completo de TecnoHorizon, un blog
+                    dedicado a compartir contenido sobre innovación y tendencias
+                    tecnológicas. Me encargué del diseño UX/UI con un enfoque
+                    limpio y moderno, optimizado para la lectura y exploración
+                    de artículos. El desarrollo del sitio priorizó el
+                    rendimiento y una estructura escalable para facilitar la
+                    gestión del contenido.
+                </p>
+                <div class="flex justify-center items-center">
+                    <a
+                        href="https://www.behance.net/gallery/216770357/Jean-Lozano-Blog-TecnoHorizon"
+                        target="_blank"
+                        class="cursor-pointer border w-fit px-6 py-3 rounded-sm hover:border-orange-400 hover:text-orange-400 transition-colors"
+                        >Visita Este Proyecto</a
+                    >
+                </div>
+                <hr class="my-10" />
+            </div>
+
+            <!-- Proyecto 04 Escritorio -->
+            <div
+                class="my-40 hidden lg:block md:px-10 lg:px-20 xl:px-40 2xl:px-100"
+            >
+                <div class="lg:grid lg:grid-cols-2 lg:gap-4">
+                    <div>
+                        <p class="py-3 text-3xl font-bold">TECNOHORIZON</p>
+                        <div class="flex flex-wrap gap-3">
+                            <div
+                                class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm"
+                            >
+                                Diseño Web
+                            </div>
+                            <div
+                                class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm"
+                            >
+                                Diseño UX/UI
+                            </div>
+                            <div
+                                class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm"
+                            >
+                                Desarrollo Web
+                            </div>
+                            <div
+                                class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm"
+                            >
+                                Figma
+                            </div>
+                            <p class="py-5">
+                                Diseño y desarrollo completo de TecnoHorizon, un
+                                blog dedicado a compartir contenido sobre
+                                innovación y tendencias tecnológicas. Me
+                                encargué del diseño UX/UI con un enfoque limpio
+                                y moderno, optimizado para la lectura y
+                                exploración de artículos. El desarrollo del
+                                sitio priorizó el rendimiento y una estructura
+                                escalable para facilitar la gestión del
+                                contenido.
+                            </p>
+                            <div class="flex justify-center items-center">
+                                <a
+                                    href="https://www.behance.net/gallery/216770357/Jean-Lozano-Blog-TecnoHorizon"
+                                    target="_blank"
+                                    class="cursor-pointer border w-fit px-6 py-3 rounded-sm hover:border-orange-400 hover:text-orange-400 transition-colors"
+                                    >Visita Este Proyecto</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center py-5">
+                        <a
+                            href="https://www.behance.net/gallery/216770357/Jean-Lozano-Blog-TecnoHorizon"
+                            target="_blank"
+                        >
+                            <img
+                                src="./assets/proyecto04.png"
+                                class="sombra-png"
+                                alt="Proyecto TECNOHORIZON"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyecto 05 movil y tablet -->
+            <div class="my-20 px-5 md:px-10 lg:hidden xl:hidden 2xl:hidden">
+                <p class="py-3 text-center text-3xl font-bold">
+                    MERCADO CARAPONGO
+                </p>
+                <div class="flex flex-wrap justify-center items-center gap-3">
+                    <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
+                        Diseño Web
+                    </div>
+                    <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
+                        Diseño UX/UI
+                    </div>
+                    <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
+                        Desarrollo Web
+                    </div>
+                </div>
+                <div class="flex justify-center items-center py-5">
+                    <a
+                        href="https://www.behance.net/gallery/216674189/Jean-Lozano-Landing-Page-Mercado-Central-Carapongo"
+                        target="_blank"
+                    >
+                        <img
+                            src="./assets/proyecto05.png"
+                            class="sombra-png"
+                            alt="Proyecto MERCADO CARAPONGO"
+                        />
+                    </a>
+                </div>
+                <p class="py-5 text-center">
+                    Diseño y desarrollo completo de la página web para Mercado Carapongo, un mercado local que busca expandir su comunidad de socios. Me encargué del diseño UX/UI con un enfoque accesible y atractivo, destacando los beneficios de formar parte del mercado. El desarrollo del sitio estuvo orientado a captar la atención de potenciales aliados mediante una navegación clara, secciones informativas y un llamado a la acción directo.
+                </p>
+                <div class="flex justify-center items-center">
+                    <a
+                        href="https://www.behance.net/gallery/216674189/Jean-Lozano-Landing-Page-Mercado-Central-Carapongo"
+                        target="_blank"
+                        class="cursor-pointer border w-fit px-6 py-3 rounded-sm hover:border-orange-400 hover:text-orange-400 transition-colors"
+                        >Visita Este Proyecto</a
+                    >
+                </div>
+            </div>
+
+            <!-- Proyecto 05 Escritorio -->
+            <div
+                class="my-40 hidden lg:block md:px-10 lg:px-20 xl:px-40 2xl:px-100"
+            >
+                <div class="lg:grid lg:grid-cols-2 lg:gap-4">
+                    <div class="flex justify-center items-center py-5">
+                        <a
+                            href="https://www.behance.net/gallery/216674189/Jean-Lozano-Landing-Page-Mercado-Central-Carapongo"
+                            target="_blank"
+                        >
+                            <img
+                                src="./assets/proyecto05.png"
+                                class="sombra-png"
+                                alt="Proyecto MERCADO CARAPONGO"
+                            />
+                        </a>
+                    </div>
+
+                    <div>
+                        <p class="py-3 text-3xl font-bold">MERCADO CARAPONGO</p>
+                        <div class="flex flex-wrap gap-3">
+                            <div
+                                class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm"
+                            >
+                                Diseño Web
+                            </div>
+                            <div
+                                class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm"
+                            >
+                                Diseño UX/UI
+                            </div>
+                            <div
+                                class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm"
+                            >
+                                Desarrollo Web
+                            </div>
+                            <div
+                                class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm"
+                            >
+                                WordPress
+                            </div>
+                            <p class="py-5">
+                                Diseño y desarrollo completo de la página web para Mercado Carapongo, un mercado local que busca expandir su comunidad de socios. Me encargué del diseño UX/UI con un enfoque accesible y atractivo, destacando los beneficios de formar parte del mercado. El desarrollo del sitio estuvo orientado a captar la atención de potenciales aliados mediante una navegación clara, secciones informativas y un llamado a la acción directo.
+                            </p>
+                            <div class="flex justify-center items-center">
+                                <a
+                                    href="https://www.behance.net/gallery/216674189/Jean-Lozano-Landing-Page-Mercado-Central-Carapongo"
+                                    target="_blank"
+                                    class="cursor-pointer border w-fit px-6 py-3 rounded-sm hover:border-orange-400 hover:text-orange-400 transition-colors"
+                                    >Visita Este Proyecto</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-20 grid grid-cols-1 md:grid-cols-2 md:gap-x-5 lg:gap-x-10 xl:gap-x-20">
+            <div class="my-10 px-5 md:px-0 flex justify-center items-center">
+                <img src="./assets/desarrollo.jpg" alt="Que es lo que hago" />
+            </div>
+            <div class="px-5 md:px-0 my-20">
+                <p class="text-center text-3xl font-bold my-10 md:text-left">
+                    ¿QUÉ ES LO QUE HAGO?
+                </p>
+                <div class="my-20">
+                    <p class="text-center text-2xl font-bold my-5 md:text-left">DISEÑO</p>
+                    <p class="text-center my-5 md:text-left">
+                        Diseño sitios web impactantes que ayudan a marcas
+                        modernas a destacar. Creo en el poder de una estética
+                        bien cuidada y una experiencia intuitiva. Mi enfoque
+                        está en crear interfaces visualmente atractivas que
+                        conecten con el usuario desde el primer clic.
+                    </p>
+                </div>
+
+                <div class="my-20">
+                    <p class="text-center text-2xl font-bold my-5 md:text-left">
+                        DESARROLLO
+                    </p>
+                    <p class="text-center my-5 md:text-left">
+                        Desarrollo sitios web escalables y eficientes, adaptados a las necesidades de cada proyecto. Utilizo tecnologías modernas para asegurar rendimiento, seguridad y facilidad de mantenimiento. Mi objetivo es construir estructuras sólidas que faciliten la gestión del contenido y potencien el crecimiento digital.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="border-t border-gray-400">
+            <section class="grid grid-cols-2">
+                <section class="p-3 md:p-5 lg:p-20 xl:p-40 grid-rows-2">
+                    <p class="text-lg font-bold md:text-2xl lg:text-3xl xl:text-4xl">¿QUIERES QUE TRABAJEMOS JUNTOS?</p>
+                    <div>
+                        <p class="text-sm py-3 text-gray-500">©Todos los derechos reservados - Jean Lozano</p>
+                    </div>
+                </section>
+                <section class="bg-[url('/assets/banner.jpg')] bg-cover bg-center grayscale">
+                    <div class="bg-black/50 w-full h-full">
+                        <p class="p-3 md:p-5 lg:p-20 xl:p-40">¿Buscas un sitio web moderno y con impacto para tu negocio, emprendimiento o marca personal? No dudes en contactarme <a href="https://wa.me/51970359604?text=Hola%2C%20desear%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20su%20servicio" target="_blank" class="underline">aquí</a></p>    
+                    </div>
+                    
+                </section>
+            </section>
+        </footer>
+
+        <script>
+            const menuButton = document.getElementById("menu-button");
+            const menu = document.getElementById("menu");
+            let estado = 1;
+
+            menuButton.addEventListener("click", () => {
+                menu.classList.toggle("hidden");
+                if (estado === 1) {
+                    menuButton.classList.replace(
+                        "bg-transparent",
+                        "bg-gray-700"
+                    );
+                    estado = 2;
+                } else {
+                    menuButton.classList.replace(
+                        "bg-gray-700",
+                        "bg-transparent"
+                    );
+                    estado = 1;
+                }
+            });
+
+            // Escuchar clics globales para cerrar el menú si se hace clic fuera de él
+            document.addEventListener("click", (e) => {
+                if (
+                    estado === 2 && // solo cerrar si está abierto
+                    !menu.contains(e.target) &&
+                    !menuButton.contains(e.target)
+                ) {
+                    menu.classList.add("hidden");
+                    menuButton.classList.replace(
+                        "bg-gray-700",
+                        "bg-transparent"
+                    );
+                    estado = 1;
+                }
+            });
+
+            // 🚀 Cerrar el menú hamburguesa si la pantalla es >= 1024px
+            window.addEventListener("resize", () => {
+                if (window.innerWidth >= 1024 && estado === 2) {
+                    menu.classList.add("hidden");
+                    menuButton.classList.replace(
+                        "bg-gray-700",
+                        "bg-transparent"
+                    );
+                    estado = 1;
+                }
+            });
+            // ✅ Cerrar menú hamburguesa al hacer clic en un enlace dentro de él
+            const menuLinks = menu.querySelectorAll("a[href^='#']");
+            menuLinks.forEach((link) => {
+                link.addEventListener("click", () => {
+                    // Cierra el menú (si está abierto)
+                    if (estado === 2) {
+                        menu.classList.add("hidden");
+                        menuButton.classList.replace(
+                            "bg-gray-700",
+                            "bg-transparent"
+                        );
+                        estado = 1;
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
