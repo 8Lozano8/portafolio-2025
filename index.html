@@ -114,7 +114,9 @@
 
         <section id="proyectos">
             <!-- Proyecto 01 movil y tablet -->
-            <div class="my-20 px-5 md:px-10 lg:hidden xl:hidden 2xl:hidden anim-proyecto">
+            <div
+                class="my-20 px-5 md:px-10 lg:hidden xl:hidden 2xl:hidden anim-proyecto"
+            >
                 <p class="text-center text-gray-500 font-bold">
                     PROYECTOS RECIENTES
                 </p>
@@ -234,7 +236,9 @@
             </div>
 
             <!-- Proyecto 02 movil y tablet -->
-            <div class="my-20 px-5 md:px-10 lg:hidden xl:hidden 2xl:hidden anim-proyecto">
+            <div
+                class="my-20 px-5 md:px-10 lg:hidden xl:hidden 2xl:hidden anim-proyecto"
+            >
                 <p class="py-3 text-center text-3xl font-bold">CALM</p>
                 <div class="flex flex-wrap justify-center items-center gap-3">
                     <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
@@ -346,7 +350,9 @@
             </div>
 
             <!-- Proyecto 03 movil y tablet -->
-            <div class="my-20 px-5 md:px-10 lg:hidden xl:hidden 2xl:hidden anim-proyecto">
+            <div
+                class="my-20 px-5 md:px-10 lg:hidden xl:hidden 2xl:hidden anim-proyecto"
+            >
                 <p class="py-3 text-center text-3xl font-bold">TECHNOVA</p>
                 <div class="flex flex-wrap justify-center items-center gap-3">
                     <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
@@ -459,7 +465,9 @@
             </div>
 
             <!-- Proyecto 04 movil y tablet -->
-            <div class="my-20 px-5 md:px-10 lg:hidden xl:hidden 2xl:hidden anim-proyecto">
+            <div
+                class="my-20 px-5 md:px-10 lg:hidden xl:hidden 2xl:hidden anim-proyecto"
+            >
                 <p class="py-3 text-center text-3xl font-bold">TECNOHORIZON</p>
                 <div class="flex flex-wrap justify-center items-center gap-3">
                     <div class="w-fit py-1 px-2 bg-gray-700 text-sm rounded-sm">
@@ -572,7 +580,9 @@
             </div>
 
             <!-- Proyecto 05 movil y tablet -->
-            <div class="my-20 px-5 md:px-10 lg:hidden xl:hidden 2xl:hidden anim-proyecto">
+            <div
+                class="my-20 px-5 md:px-10 lg:hidden xl:hidden 2xl:hidden anim-proyecto"
+            >
                 <p class="py-3 text-center text-3xl font-bold">
                     MERCADO CARAPONGO
                 </p>
@@ -841,11 +851,23 @@
                     }
                 );
 
-                document
-                    .querySelectorAll(".anim-proyecto")
-                    .forEach((el) => {
-                        observer.observe(el);
-                    });
+                document.querySelectorAll(".anim-proyecto").forEach((el) => {
+                    observer.observe(el);
+                });
+            });
+        </script>
+        <script>
+            function loadScript(a) {
+                var b = document.getElementsByTagName("head")[0],
+                    c = document.createElement("script");
+                (c.type = "text/javascript"),
+                    (c.src = "https://tracker.metricool.com/resources/be.js"),
+                    (c.onreadystatechange = a),
+                    (c.onload = a),
+                    b.appendChild(c);
+            }
+            loadScript(function () {
+                beTracker.t({ hash: "b110a664e92f832fa94d6d6de742fd76" });
             });
         </script>
     </body>
